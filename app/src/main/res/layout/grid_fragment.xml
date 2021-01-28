@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.TripNTip.TripNTip.GridFragment">
+
+    <GridView
+        android:id="@+id/TripsGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_dark_background"
+        android:columnWidth="@dimen/GridViewColumnWidth"
+        android:gravity="center"
+        android:horizontalSpacing="1dp"
+        android:verticalSpacing="10dp" />
+
+</FrameLayout>

@@ -1,0 +1,97 @@
+<resources>
+    <!--    Labels-->
+    <string name="app_name">TripNTip</string>
+    <string name="EmailExample">ex:niv@example.com </string>
+    <string name="PasswordExample">Password </string>
+    <string name="Username">UserName </string>
+    <string name="Login">Login </string>
+    <string name="SignUpFromLoginLabel">Not having an account? Sign up! </string>
+    <string name="SignUp">Sign up </string>
+    <string name="SingUpActivityTitle">SignUPActivity</string>
+    <string name="TripAddName">Ex: Tel Aviv</string>
+    <string name="TripAddDescription">Tel Aviv is a nice city, etc…</string>
+    <string name="TripAddIsSummerTrip">Is a summer trip?</string>
+    <string name="TripAddIsDayTrip">Is a day trip?</string>
+    <string name="AddTrip">Add Trip</string>
+    <string name="shouldIDoTheTrip">Should I Go And Do The Trip Now?</string>
+    <string name="trip_current_recommendation_edit_text">Click The Button To Get Our Recommendation</string>
+    <string name="UploadTripPicture">Click Here To Upload A Picture</string>
+    <string name="ReplyButtonText">Reply</string>
+    <string name="TripDetailsName">Trip\'s Name: </string>
+    <string name="TripDetailsDescription">Trip\'s Description: </string>
+    <string name="TripDetailsIsSummerTrip"> Is a Summer Trip</string>
+    <string name="TripDetailsIsNotSummerTrip"> Is Not a Summer Trip</string>
+    <string name="TripDetailsIsDayTrip">Is a Day Trip</string>
+    <string name="TripDetailsIsNotDayTrip">Is Not a Day Trip</string>
+    <string name="OurRecommendationLabel">Our Recommendation For Doing The Trip Right Now: </string>
+    <string name="RecommendationProofLabel">Would You Like To Know How We Got There? Click Here.</string>
+    <string name="CollapseExtendedRecommendation">Collapse</string>
+
+    <!--    Messages-->
+    <string name="signUpSucceededMsg">"User Creation Succeeded."</string>
+    <string name="signUpFailedMsg">"User Creation Failed."</string>
+    <string name="emptyEmailSignUpAttemptMsg">"Please Enter An Email Address"</string>
+    <string name="invalidEmailSignUpAttemptMsg">"Please Enter A Valid Email Address"</string>
+    <string name="emptyPasswordSignUpAttemptMsg">"Please Enter A Password"</string>
+    <string name="invalidPasswordLengthSignUpAttemptMsg">"The Password's Length Has To Be Between 8 to 14 Characters"</string>
+    <string name="invalidPasswordCaseSignUpAttemptMsg">"The Password Has To Contain At Least One Lowercase Character And One Uppercase Character And A Digit"</string>
+    <string name="passwordContainsUsernameSignUpAttemptMsg">"The Password Cannot Contain The Username"</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_userName">Enter new User name</string>
+    <string name="change_country">Enter new Country</string>
+    <string name="change_profile_picture">change profile picture</string>
+    <string name="editPersonal">edit personal details</string>
+    <string name="invalidAPIKeyErrorMessage">The request contains invalid API key. Please contact the developers for a fix.</string>
+    <string name="tooManyRequestsErrorMessage">Too many requests have been sent. Please try again later.</string>
+    <string name="generalErrorMessage">A bad response was received from the server. Please contact the developers for a fix.</string>
+    <string name="picturesLoadError">Could not load the trips pictures. Please contact the developers.</string>
+    <string name="streamClosingErrorMessage">Error occurred while closing stream.</string>
+    <string name="tripWritingSuccessMsg">Trip Was Written Successfully!</string>
+    <string name="tripWritingFailureMsg">Trip Was NOT Written Successfully!</string>
+    <string name="tripLoadingFailureMsg">"Trips loading failed! Exiting…"</string>
+    <string name="tripAlbumLoadingFailureMsg">"Trips album loading failed! Exiting…"</string>
+    <string name="apiKeyLoadingFailureMsg">"API key loading failed! Exiting…"</string>
+    <string name="waitMessage">"Please wait until we load the data…"</string>
+    <string name="AddTripNameIsEmptyMsg">"Please type a name for the trip"</string>
+    <string name="AddTripDescriptionIsEmptyMsg">"Please type a description for the trip"</string>
+    <string name="AddTripLocationNotInList">"Please choose a location that is in the list for the trip"</string>
+    <string name="AddTripChooseLocation">"Choose Trip's Location (start typing)"</string>
+    <string name="AddTripImageUploadFailed">"Couldn't Upload An Image. Please Try To Upload Another Image"</string>
+    <string name="AddTripImageUploadTitle">"Please Select An Image"</string>
+    <string name="UserNameFromFirebaseError">"Could not get the firebase username."</string>
+
+    <!--    Trip properties-->
+    <string name="tripTitle">Trip information</string>
+    <string name="title_activity_add_trip">AddTripActivity</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--    FixMe Niv: typo-->
+    <string name="Eror_database">data base eror</string>
+    <string name="not_choose_photo"> No image selected</string>
+    <string name="select_image"> select image</string>
+    <string name="wait"> "Please wait..."</string>
+    <string name="Authentication_Succeeded"> "Authentication Succeeded!"</string>
+    <string name="Authentication_Faild"> "Authentication Faild!"</string>
+    <string name="new_comment"> "new comment"</string>
+    <string name="Ok"> "Ok"</string>
+
+    <!--    Extended Recommendation Properties-->
+    <string name="As">As \ </string>
+    <string name="is">\ is \ </string>
+    <string name="not">not \ </string>
+    <string name="summer_trip_and">a summer trip, and the temperature is \ </string>
+    <string name="comfortable">comfortable</string>
+    <string name="we_decided_to_add"> we decided to add \ </string>
+    <string name="to_the_grade">\ to the grade.</string>
+    <string name="as_the_humidity">As the humidity is very high, we decided to decrease \ </string>
+    <string name="from_the_grade"> from the grade.</string>
+    <string name="a_day_trip">a day trip, so there is \ </string>
+    <string name="enough_time">enough time to do the trip right now, and we decided to add \ </string>
+    <string name="dis_recommendation">We don\'t recommend traveling there</string>
+
+</resources>

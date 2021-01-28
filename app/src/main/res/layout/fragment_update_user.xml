@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="320dp"
+    tools:context="com.example.TripNTip.FeatureScreens.ProfileActivity">
+
+    <EditText
+        android:id="@+id/change_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/change_userName"
+        android:textSize="@dimen/TextSize"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/change_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="@string/change_country"
+        android:textSize="@dimen/TextSize"
+        android:textStyle="italic" />
+
+</FrameLayout>
